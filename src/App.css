@@ -1,0 +1,13 @@
+body {
+  transition: background-color 0.5s ease;
+}
+
+body.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+body.light-mode {
+  background-color: white;
+  color: black;
+}
